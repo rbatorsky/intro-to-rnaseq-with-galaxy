@@ -1,4 +1,4 @@
-### A Tufts University Research Technology Workshop
+### Intro to Bulk RNA Transcriptomics Bioinformatics using Tufts University Galaxy Server
 
 ## Description
 This course is an introduction to RNA sequencing using Galaxy on [Tufts University's Galaxy server](https://galaxy.cluster.tufts.edu). 
