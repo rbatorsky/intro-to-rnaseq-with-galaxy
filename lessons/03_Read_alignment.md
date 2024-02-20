@@ -50,8 +50,9 @@ STAR produces a file in Sequence Alignment Map (SAM) format or the compressed ve
 - In the **Tools** panel search bar, type **STAR**
 - Scroll down and select **RNA STAR** under **RNA-seq**
 - Under **RNA-Seq FASTQ/FASTA file** click the <img src="../img/download.png" width="15"> and select the trimmed reads **42: Trim Galore! on collection 12: trimmed reads**
-- **STAR** gives us the option of using a genome that includes a database of known splice junction locations or providing a gtf file so that STAR can create the database. We’ll select a reference genome on our server that already includes the splice junctions listed in our GTF file. Under **Reference genome with or without an annotation** select **use genome reference with built-in gene-model**.
-- Under **Select reference genome** select **hg38-with-genes**.
+- **STAR** gives us the option of using a genome that includes a database of known splice junction locations or providing a gtf file so that STAR can create the database. We’ll select a reference genome on our server that already includes the splice junctions listed in our GTF file. Under **Reference genome with or without an annotation** select **use genome reference without a built-in gene-model but provide gtf**.
+- Under **Select reference genome** select **hg38**.
+- Under **gene model** select **hg38_genes.gtf**
 - The final configuration should look like this: 
 
 <img src="../img/STARconfig.png" width="800">
