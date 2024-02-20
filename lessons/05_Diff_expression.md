@@ -40,7 +40,7 @@ Galaxy requires that lists have an identifier column
 ## Test for Differential Expression using DESeq2 
 - In the **Tools** panel search bar, type **DESeq2** and under **RNA-seq** select **DESeq2** 
 
-DESeq2 will take the count tables that we generated, one per sample, and make a comparison for each gene between two conditions: HIV and Mock.  The term that DESeq2 uses for this condition is "factor" and the ordering of our factor levels will determine how we interpret the resulting expression fold changes. Here, we'll set Factor 1 to *HIV* and Factor 2 to *Mock*. Any resulting upregulated genes, with log2 fold change > 0, can then be interpreted as being upregulated in HIV samples with respect to Mock.
+DESeq2 will take the count tables that we generated, one per sample, and make a comparison for each gene between two conditions: HIV and Mock.  The term that DESeq2 uses for this condition is "factor" and the ordering of our factor levels will determine how we interpret the resulting expression fold changes. Here, we'll set Factor Level 1 to *HIV* and Factor Level 2 to *Mock*. Any resulting upregulated genes, with log2 fold change > 0, can then be interpreted as being upregulated in HIV samples with respect to Mock.
 
 - Under **1: Factor** , specify the factor name **Condition**
 - Under **1: FactorLevel**, specify the base factor level **HIV**
