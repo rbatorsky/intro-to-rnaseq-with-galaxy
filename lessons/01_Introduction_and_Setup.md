@@ -31,20 +31,20 @@ The following steps will walk you through how to run the tools. In each step cer
 
 ## Import the raw data from a shared data library on our server
 - On the top menu bar, click **Shared Data** and select **Data Libraries**
-- Select **chang_2011_2rep**
+- Select **subsampled_chang_2011**
 - Just under the top menu bar, next to the search bar, click **Export to History** and select **As a Collection**. You'll see a list of fastq files.
 - Click **Continue** to add all files as a list to our current history (No need to click on individual files)
-- Name the collection **chang_2011**
+- Name the collection **subsampled_chang_2011**
 - Click **Create list**
 - Click on **Galaxy Tufts** on the top left to go back to the main panel.
 
-You’ll see the collection (or list) **chang_2011** in your history. 
+You’ll see the collection (or list) **subsampled_chang_2011** in your history. 
 
 <img src="../img/chang_2011.png" width="200">
 
 
 ## View Fastq files
-- Click on the list **chang_2011** to expand, you’ll see 11 sequencing files with extension **fastq.qz**
+- Click on the list **subsampled_chang_2011** to expand, you’ll see 11 sequencing files with extension **fastq.qz**
 - Click on the **eye icon** <img src="../img/eye.png" width="15"> on the first sequence file **HIV_12hr_rep1** and look at the fastq reads
 
 The first 4 lines constitute the first sequencing read:
