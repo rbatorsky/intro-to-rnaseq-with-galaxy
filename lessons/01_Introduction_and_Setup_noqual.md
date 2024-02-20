@@ -24,7 +24,7 @@ The following steps will walk you through how to run tools needed for our workfl
 We'll import The raw reads from a shared library on our server. They have been downsampled to 1 million reads per file in order to speed up computation. The full dataset is available from NCBI under accession [SRP013224](https://www.ncbi.nlm.nih.gov/sra?term=SRP013224).
 
 - On the top menu bar, click **Shared Data** and select **Data Libraries**
-- Select **chang_2011_2rep**
+- Select **subsampled_chang_2011**
 - Just under the top menu bar, next to the search bar, click **Export to History** and select **As a Collection**. You'll see a list of fastq files.
 - Click **Continue** to add all files as a list to our current history (No need to click on individual files)
 - Name the collection **chang_2011**
