@@ -75,7 +75,7 @@ STAR produces a file in Sequence Alignment Map (SAM) format or the compressed ve
 
 ## View bam file using JBrowse
 
-- In the **Tools** panel search bar, type **JBrowse** and select **JBrowse** genome browser
+- In the **Tools** panel search bar, scroll down to **Graph/Display Data** and select **JBrowse genome browser**
 - Under **Select a reference genome** select **hg38**
 
 Next we'll add two Track groups, each with an annotation track
