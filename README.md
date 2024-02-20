@@ -1,9 +1,8 @@
-### Intro to Bulk RNA Transcriptomics Bioinformatics using Tufts University Galaxy Server
+### Intro to Bulk RNA-Seq Bioinformatics using Tufts University Galaxy Server
 
 ## Description
-This course is an introduction to RNA sequencing using Galaxy on [Tufts University's Galaxy server](https://galaxy.cluster.tufts.edu). 
-For support with this workshop or Galaxy, see our [Galaxy documentation](https://it.tufts.edu/research-technology/bioinformatics/tufts-galaxy) or email TTS Research Technology [tts-research@tufts.edu](mailto:ltts-research@tufts.edu)
-
+This course is an introduction to RNA sequencing using Galaxy on [Tufts University's Galaxy server](https://galaxy.cluster.tufts.edu). The workshop is developed by the Data Intensive Studies Center ([DISC](https://disc.tufts.edu/)) and [Tufts Research Technology](https://it.tufts.edu/research-technology/).
+For Galaxy Support, see the [Galaxy documentation](https://it.tufts.edu/research-technology/bioinformatics/tufts-galaxy) or email TTS Research Technology [tts-research@tufts.edu](mailto:ltts-research@tufts.edu).
 
 ## Goals
 
@@ -17,7 +16,7 @@ Bioinformatics for RNAseq has the following workflow steps
 - [VPN](https://access.tufts.edu/vpn) if accessing the HPC from off campus
 
 ## Table of Contents
-- [Introduction Slides](slides/slides_workshop_bioe291_14Dec21.pdf)
+- [Introduction Slides](slides/transcriptomics_lecture_20Feb24_upload.pdf)
 - [Introduction to Galaxy](lessons/00_Galaxy_introduction.md)
 - [Next: Process Raw Reads](lessons/01_Introduction_and_Setup_noqual.md)
 - [Read Alignment](lessons/03_Read_alignment.md)
