@@ -11,7 +11,7 @@ FastQC provides several modules (as discussed in intro [Slides](../slides/slides
 ## Run FastQC
 
 - In the **Tools** panel search bar, type **FastQC**
-- Select **FastQC** under **FASTQ Quality Control**
+- Select **FastQC** under **FASTQ Quality Control** (You may need to click **Show Sections** to see section headers)
 - In the **Main** panel, under **Raw read data from your current history** select the folder icon <img src="../img/download.png" width="15"> and the dataset **subsampled_chang_2011** will appear as an option
 
 <img src="../img/fastqc1.png" width="700">
