@@ -66,7 +66,7 @@ Steps to run:
 - Follow the steps for **Run FastQC** and **Aggregate QC data with MultiQC** above, except select the trimmed reads generated in the previous step as the input to **FastQC**
 
 <details>
-<summary><b>Question 4: Were any reads completely removed from the samples? Note: The MultiQC "General Statistics" table may show a rounded value, so be sure to double check with the individual sample FastQC tables. </b></summary>
+<summary><b>Question 4: Were any reads completely removed from the samples? You can compare the read count in the General Statistics table before and after trimming. Note: The **MultiQC: Webpage** "General Statistics" table shows a rounded value, so be sure to use the raw table data in the **MultiQC:Stats** Galaxy output.  </b></summary>
 <br>
 </details>
 
