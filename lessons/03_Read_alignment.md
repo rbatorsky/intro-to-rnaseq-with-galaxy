@@ -50,7 +50,7 @@ STAR produces a file in Sequence Alignment Map (SAM) format or the compressed ve
 - In the **Tools** panel search bar, type **STAR**
 - Scroll down and select **RNA STAR** under **RNA-seq**
 - Under **RNA-Seq FASTQ/FASTA file** click the <img src="../img/download.png" width="15"> and select the trimmed reads **42: Trim Galore! on collection 12: trimmed reads**
-- **STAR** gives us the option of using a genome that includes a database of known splice junction locations or providing a gtf file so that STAR can create the database. We’ll select a reference genome on our server that already includes the splice junctions listed in our GTF file. Under **Reference genome with or without an annotation** select **use genome reference without a built-in gene-model but provide gtf**.
+- **STAR** gives us the option of using a genome that includes a database of known splice junction locations or providing a gtf file so that STAR can create the database. We’ll select a reference genome on our server that *does not* include the splice junctions. Under **Reference genome with or without an annotation** select **use genome reference without a built-in gene-model but provide gtf**.
 - Under **Select reference genome** select **hg38**.
 - Under **gene model** select **hg38_genes.gtf**
 - The final configuration should look like this: 
@@ -70,7 +70,7 @@ STAR produces a file in Sequence Alignment Map (SAM) format or the compressed ve
 - After the job finished, click the <img src="../img/download.png" width="15"> to view the webpage.
 
 <details>
-<summary><b>Question 5: In RNAseq, the percentages of uniquely aligned reads are typically lower than for DNAseq, due to the presence of unremoved ribosomal RNA. These are present in multiple copies throughout the genome and cause reads not to be mapped confidently. RNAseq is expected to be above 75% for an uncontaminated human sample. Is the "% Aligned" above 75% for these samples? You can optionally check to see which percentage of the reads align to the HIV genome by re-running STAR using the HIV genome with built-in gene model hiv_nc001802 </b></summary>
+<summary><b>Question 5: In RNAseq, the percentages of uniquely aligned reads are typically lower than for DNAseq, due to the presence of unremoved ribosomal RNA. These are present in multiple copies throughout the genome and cause reads not to be mapped confidently. RNAseq is expected to be above 75% for an uncontaminated human sample. Is the "% Aligned" above 75% for these samples? You can optionally check to see which percentage of the reads align to the HIV genome by re-running STAR using the HIV genome and hiv annotation files located in Shared Data library called ** </b></summary>
 <br>
 </details> 
 
